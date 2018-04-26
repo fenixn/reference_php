@@ -5,6 +5,14 @@ Personal study notes for PHP
   * [PHP Tags](#php-tags)
     * [Standard Tags](#standard-tags)
     * [Short Tags](#short-tags)
+    * [ASP Tags](#asp-tags)
+  * [Comments](#comments)
+  * [Operators](#operators)
+    * [Modulus Operator](#modulus-operator)
+    * [Combined Operator](#combined-operator)
+    * [Assignment by Reference](#assignment-by-reference)
+    * [Comparison Operators](#comparison-operators)
+    * [Ternary Operator](#ternary-operator)
 
 # PHP Basics
 
