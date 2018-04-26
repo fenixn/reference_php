@@ -1,6 +1,7 @@
 # PHP Reference
 Personal study notes for PHP
 
+# Table of Contents
 * [PHP Basics](#php-basics)
   * [PHP Tags](#php-tags)
     * [Standard Tags](#standard-tags)
@@ -53,6 +54,7 @@ Personal study notes for PHP
 */
 ?>
 ```
+[Table of Contents](#table-of-contents)
 
 ## Operators
 
