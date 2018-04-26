@@ -28,6 +28,8 @@ Personal study notes for PHP
 * Always available and best for compatibility
 * Cannot be disabled by changing the PHP configuration file
 
+[Table of Contents](#table-of-contents)
+
 ### Short Tags
 ```php
 <? //code ?>
@@ -38,11 +40,15 @@ Personal study notes for PHP
 <?= $variable ?>
 ```
 
+[Table of Contents](#table-of-contents)
+
 ### ASP Tags
 ```php
 <% //code %>
 ```
 * Must be enabled in php.ini with the asp_tags directive
+
+[Table of Contents](#table-of-contents)
 
 ## Comments
 ```php
@@ -65,6 +71,7 @@ Personal study notes for PHP
   echo 5 % 3; // prints 2
 ?>
 ```
+[Table of Contents](#table-of-contents)
 
 ### Combined Operator
 ```php
@@ -76,6 +83,7 @@ Personal study notes for PHP
   $b -= 2; // equals 8
 ?>
 ```
+[Table of Contents](#table-of-contents)
 
 ### Assignment by Reference
 ```php
@@ -92,6 +100,7 @@ Personal study notes for PHP
   echo $b; // now prints 5 as well, since $b is a reference to $a
 ?>
 ```
+[Table of Contents](#table-of-contents)
 
 ### Comparison Operators
 ```php
@@ -131,6 +140,7 @@ Personal study notes for PHP
   // Example outputs bool(true) because while $e is not greater than $f, it is equal to it.
 ?>
 ```
+[Table of Contents](#table-of-contents)
 
 ### Ternary Operator
 The ternary operator is a conditional operator. (expr1) ? (expr2) : (expr3) evaluates to expr2 is expr1 is TRUE. If expr1 is instead FALSE, it will evaluate to expr3 instead.
@@ -143,3 +153,4 @@ The ternary operator is a conditional operator. (expr1) ? (expr2) : (expr3) eval
   echo 2 === "2" ? $a : $b; // outputs b
 ?>
 ```
+[Table of Contents](#table-of-contents)
