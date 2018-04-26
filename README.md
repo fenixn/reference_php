@@ -1,7 +1,10 @@
 # PHP Reference
 Personal study notes for PHP
 
-[PHP Basics](#php-basics)
+* [PHP Basics](#php-basics)
+  * [PHP Tags](#php-tags)
+    * [Standard Tags](#standard-tags)
+    * [Short Tags](#short-tags)
 
 # PHP Basics
 
