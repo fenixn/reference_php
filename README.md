@@ -21,6 +21,13 @@ Personal study notes for PHP
     * [Naming](#naming)
     * [Types](#types)
     * [Strings](#strings)
+    * [Integer](#integer)
+    * [Boolean](#boolean)
+    * [Arrays](#arrays)
+    * [Resource](#resource)
+    * [null](#null)
+    * [Variable Variables](#variable-variables)
+    
 
 # PHP Basics
 
@@ -244,3 +251,35 @@ PHP support both pre- and post-increment and decrement operators
 ?>
 ```
 [Table of Contents](#table-of-contents)
+
+### Integer
+* Decimal (base 10)
+* Hexidecimal (base 16) - precede with a 0x
+* Octal (base 8) - precede with a 0
+
+### Boolean
+* Any integer other than 0 is cast to TRUE
+* TRUE & FALSE are case-insenstive, although the all apps representation is common
+
+### Arrays
+* Arrays can contain any combination of other variable types, even arrays or objects
+
+### Resource
+* Resource is a special variable that represents some sort of operating system resource, generally an open file or database connection.
+
+### null
+* null has no value and no type
+* null is not the same as the integer zero or a zero length string
+
+### Variable Variables
+A variable value can be used as a variable name by prepending the variable with an additional $.
+```php
+<?php
+$a = "name";
+$$a = "John";
+echo $name; // outputs John
+?>
+```
+[Table of Contents](#table-of-contents)
+
+
