@@ -299,6 +299,8 @@ echo $name; // outputs John
 * Object - An individual instance of the data structure defined by a class. Objects are also known as instance.
 * Polymorphism - Represents different behavior for the same operation. The value of polymorphism is that objects with the same interface can be called to do different things. In large and complex programs, additions and changes to a program may break the program unless it has a common interface (from a parent class or interface).
 
+[Table of Contents](#table-of-contents)
+
 
 
 
