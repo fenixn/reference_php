@@ -27,6 +27,8 @@ Personal study notes for PHP
     * [Resource](#resource)
     * [null](#null)
     * [Variable Variables](#variable-variables)
+* [Object Oriented Programming in PHP](#object-oriented-programming-in-php)
+  * [Object Oriented Concepts](#object-oriented-concepts)
     
 
 # PHP Basics
@@ -281,5 +283,22 @@ echo $name; // outputs John
 ?>
 ```
 [Table of Contents](#table-of-contents)
+
+# Object Oriented Programming in PHP
+
+## Object Oriented Concepts
+
+* Class - A programmer-defined data type that includes local functions and local data. It can be thought of as a template for making many instances of the same kind (or class) of object.
+  * Parent Class - A class that is inherited by another class. Also known as a base class or super class.
+  * Child Class - A class that inherits from another class. Also known as a subclass or derived class.
+* Encapsulation - The process of compartmentalizing the element of an abstraction that constitute its structure and behavior. Encapsulation is what makes an object an object. A class is encapsulated through limited access to its method and properties. In the context of encapsulation, information hiding means that the details of a module may be hidden so that the module may be used through the appropriate access channels.
+* Inheritance - When a class is defined by inheriting existing function of a parent class, it is called inheritance.
+* Member Variable - Variables defined in a class. This data is invisible to the outside of the class and can only be accessed via member functions. Once an object is created, these variables are called the attribute of an object.
+* Member Function - These are functions defined inside a class and can be used to access an object's data.
+* Modularization - Decomposing a problem into small subproblems. Object oriented programming aims to make complex problems smaller and more manageable.
+* Object - An individual instance of the data structure defined by a class. Objects are also known as instance.
+* Polymorphism - Represents different behavior for the same operation. The value of polymorphism is that objects with the same interface can be called to do different things. In large and complex programs, additions and changes to a program may break the program unless it has a common interface (from a parent class or interface).
+
+
 
 
