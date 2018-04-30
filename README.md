@@ -154,3 +154,86 @@ The ternary operator is a conditional operator. (expr1) ? (expr2) : (expr3) eval
 ?>
 ```
 [Table of Contents](#table-of-contents)
+
+### Incrementing and Decrementing Operators
+PHP support both pre- and post-increment and decrement operators
+```php
+<?php
+ $a = 1;
+ $a++; // $a = 2
+ ++$a; // $a = 3
+ 
+ $b = 10;
+ $b--; // $b = 9
+ --$b; // $b = 8
+?>
+```
+[Table of Contents](#table-of-contents)
+
+### Logical Operators
+```php
+<?php
+ $a = TRUE;
+ $b = FALSE;
+ 
+ var_dump($a and $b); 
+ var_dump($a && $b); // outputs bool(false). The (and) operator only outputs TRUE if both $a and $b are TRUE.
+ 
+ var_dump($a or $b);
+ var_dump($a || $b); // outputs bool(true). The (or) operator will output TRUE if either $a or $b is TRUE.
+ 
+ var_dump($a xor $b); // outputs bool(true). The (xor) operator will output TRUE if either $a or $b is TRUE, but not both.
+ var_dump(!$a); // outputs bool(false). The (not) operator will output TRUE if $a is not TRUE.
+?>
+```
+[Table of Contents](#table-of-contents)
+
+### String Operators
+```php
+<?php
+ $a = "hello";
+ $b = "world";
+ 
+ echo $a . $b; // outputs "hello world". The (.) is the concatenation operator.
+ 
+ $a .= $b;
+ echo $a; // outputs "hello world". The (.=) is the concatenating assignment operator.
+?>
+```
+[Table of Contents](#table-of-contents)
+
+## Variables
+
+### Naming
+* Variable names can only contain letters, numbers or underscores
+* Variable names must start with a letter or underscores
+
+### Types
+* Scalar types
+  * boolean
+  * string
+  * integer
+  * float
+* Compound types
+  * array
+  * object
+* Special types
+  * resource
+  * null
+  
+### Strings
+* Single quotes - 'some text' - Characters within single quotes will be recorded as is, without variables or escape sequences intrepreted and replaced
+* Double quotes - "some text" - Variables and esacpe sequences will be interpreted and replaced.
+* Heredoc - <<< - Functions similar to double quotes, but is designed to span multiple lines and allows for use of quotes without esacping.
+```php
+<?php
+ $str = <<<STR
+ This is an example of heredoc.
+ It allows multiple lines,
+ and "quotes".
+ STR;
+
+ echo $str; // outputs This is an example of heredoc. It allows multiple lines, and "quotes".
+?>
+```
+[Table of Contents](#table-of-contents)
