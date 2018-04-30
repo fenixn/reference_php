@@ -14,6 +14,13 @@ Personal study notes for PHP
     * [Assignment by Reference](#assignment-by-reference)
     * [Comparison Operators](#comparison-operators)
     * [Ternary Operator](#ternary-operator)
+    * [Incrementing and Decrementing Operators](#incrementing-and-decrementing-operators)
+    * [Logical Operators](#logical-operators)
+    * [String Operators](#string-operators)
+  * [Variables](#variables)
+    * [Naming](#naming)
+    * [Types](#types)
+    * [Strings](#strings)
 
 # PHP Basics
 
